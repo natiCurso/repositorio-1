@@ -1,0 +1,76 @@
+body{
+	margin: 20px;
+}
+
+p{
+	font-size: 1.1em;
+}
+
+nav{
+	float:right; padding-top:30px;
+}
+
+.texto_justificado{
+	text-align: justify;
+}
+#img-costado{
+	float:left;
+	width: auto;
+	padding-right:20px;
+}
+
+.img-costado{
+	float:left;
+	padding-right:20px;
+	width:200px;
+}
+#contacto{
+	width:45%;
+}
+
+.column-tres{
+ 	width: 30%;
+}
+
+.column-dos{
+	width:45%
+	
+}
+
+//sacar punto, hacer una clase
+.div:hover {
+ 	width:500px;
+ }
+ .div {
+ 	transition: width 2s;
+ 	color:pink;
+ 	width:100px;
+ 	height:100px;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+.fondogris{
+	background-color: #eee;
+	padding: 2px 20px 20px 20px;
+}
+
+.altura{
+	/* padding-top: 50px; */
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+

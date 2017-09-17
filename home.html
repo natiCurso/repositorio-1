@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UFT-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+
+<header>
+<img src="img/logo.png" alt="logo">
+<nav>
+    <a href="home.html">Home</a> |
+    <a href="#nosotros">Sobre Nosotros</a> |
+    <a href="novedades.html">Novedades</a> |
+    <a href="#contacto">Contacto</a> 
+</nav>
+
+</header>
+<hr>
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="d-block w-100" src="img/uns1.png" alt="First slide">
+    </div>
+    <div class="item">
+      <img class="d-block w-100" src="img/uns2.png" alt="Second slide">
+    </div>
+    <div class="item">
+      <img class="d-block w-100" src="img/uns3.png" alt="Third slide">
+    </div>
+  </div>
+</div>
+
+<div> 
+<section class="fondogris">
+<h1 id="nosotros">Sobre Nosotros</h1>
+<p class="texto_justificado">
+		<img src="img/img_frente_uns.jpg" alt="Frente de la UNS" id="img-costado" class="img-costado"> 
+		Ese mismo año fue designado Rector interventor el profesor Vicente Fatone. Las clases en la flamante institución comenzaron a dictarse el 1 de abril de ese año. La UNS fue la séptima universidad nacional creada en el país, siendo precedida por las de Córdoba (1613), Buenos Aires (1821), La Plata (1890), Tucumán (1912), Litoral (1919) y Cuyo (1939).<br>
+		
+		La nueva casa organizó su estructura académica por Departamentos, en lugar de las tradicionales Facultades. 
+		
+		Estos tienen una estructura administrativa menor y permiten la flexibilidad y transversalidad en el conocimiento. 
+		Así, las unidades académicas no deben crear para sus carreras las materias que otras dictan para las suyas, lo que permite a los alumnos cursarlas en ellos. Los primeros Departamentos fueron Contabilidad, Economía, Física, Geología y Geografía, Matemática, Ingeniería, Humanidades y Química.<br>
+		Apenas a un mes de la inauguración, dos estudiantes que habían comenzado a cursar sus carreras en el Instituto, Jorge Laurent y David Tomás Prieto, se presentaron a rendir las últimas materias, convirtiéndose así en los primeros egresados de la institución. La primera mujer que obtuvo su título en la UNS fue Betty Kerlleñevich, de Bahía Blanca, una de las alumnas fundadoras del ITS, quien también se graduó de ingeniera.
+	</p>
+</section>
+
+<aside>
+<h1 id="novedades">Novedades</h1>
+
+<div class="container">
+
+<div class="col-sm-4">
+
+<h4>Abrió la inscripción para programas de movilidad internacional para alumnos</h4>
+<img class="img-costado" src="http://st02.uns.edu.ar/noticias/imagenes/4170-imgG.jpeg?1503879324">
+
+Ofrecen la posibilidad de cursar el 1° semestre de 2018 en universidades de México, Colombia, Brasil, Chile, Uruguay, España, Italia, Austria, Francia y Alemania. Habrá una charla informativa el viernes 18.
+
+
+<a href="programas-movilidad.html">Ver más</a>
+</div>
+
+<div class="col-sm-4">
+
+<h4>Estudiantes de las ingenierías tendrán reconocimiento de sus trayectos formativos</h4>
+<img class="img-costado" src="http://st02.uns.edu.ar/noticias/imagenes/4199-imgG.jpeg?1503875752">
+
+Este jueves, 47 universidades públicas y privadas firmaron un convenio para que estudiantes de ingeniería de más de 230 carreras tengan nuevas alternativas para que se les reconozcan materias, ciclos o prácticas, y favorecer así su movilidad entre universidades.
+
+<a href="reconocimientos.html">Ver más</a>
+</div>
+
+<div class="col-sm-4">
+
+<h4>Convocatoria a voluntarios para dar apoyo escolar</h4>
+<img class="img-costado" src="http://st02.uns.edu.ar/noticias/imagenes/4184-imgG.jpeg?1503879324">
+
+La propuesta es ayudar a los pequeños en las tareas escolares, en clases semanales de dos horas, que se brindan en sociedades de fomento o sedes barriales
+
+<a href="convocatoria.html">Ver más</a>
+</div>
+</div>
+</aside>
+
+</div>
+<br>
+<hr>
+<footer class="altura">
+<div class="col-sm-4" id="contacto">
+
+<h1>Contactanos</h1>
+<h4><span class="glyphicon glyphicon-home"></span> Avenida Colón 80 - Bahía Blanca - 8000FTN </h4>
+<h4>Provincia de Buenos Aires - República Argentina </h4>
+<h4><span class="glyphicon glyphicon-earphone"></span> Teléfono +54 291 459 5000 - 
+<a href="http://www.uns.edu.ar/" target="_black">www.uns.edu.ar</a></h4>
+</div>
+
+
+<div class="col-sm-4">
+
+<h1>Dejanos tu consulta</h1>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Nombre y Apellido:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Mensaje:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Enviar" />
+</form>						
+
+</div>
+
+<div class="col-sm-4">
+
+                
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+
+</div>
+</footer>
+
+</body>
+</html>
